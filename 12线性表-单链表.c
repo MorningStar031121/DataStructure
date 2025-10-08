@@ -10,7 +10,7 @@ typedef struct LNode
 // 单链表操作——初始化
 void initList(LNode **L)
 {
-    // L是一个二重指针，指向链表的头指针，而头指针指向链表的头结点
+    // L是一个二重指针，指向链表的头指针，而头指针指向链表的开始节点
     *L = (LNode*)malloc(sizeof(LNode));
     (*L)->next = NULL;
 }

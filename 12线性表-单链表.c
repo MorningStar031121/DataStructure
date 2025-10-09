@@ -6,7 +6,7 @@ typedef struct LNode
     int data;
     struct LNode *next;
 }LNode;
-
+ 
 // 单链表操作——初始化
 void initList(LNode **L)
 {
